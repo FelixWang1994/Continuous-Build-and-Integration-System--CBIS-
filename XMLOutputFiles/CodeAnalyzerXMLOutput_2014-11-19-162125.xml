@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Code Analyzer XML Output-->
+<CodeAnalyzerOutput>
+  <TypesAndFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server1\bin\TestCode\CodeAnalyzer.cs">
+      <Types>
+        <Type type="class" name="CodeAnalysis.FileTypesInfo" />
+        <Type type="class" name="CodeAnalysis.CodeAnalyzer" />
+      </Types>
+      <Functions>
+        <Function name="CodeAnalysis.FileTypesInfo.FileTypesInfo" />
+        <Function name="CodeAnalysis.CodeAnalyzer.CodeAnalyzer" />
+        <Function name="CodeAnalysis.CodeAnalyzer.doCodeAnalysis" />
+        <Function name="CodeAnalysis.CodeAnalyzer.findTypesAndFuncs" />
+        <Function name="CodeAnalysis.CodeAnalyzer.findTypeRelationships" />
+        <Function name="CodeAnalysis.CodeAnalyzer.Main" />
+      </Functions>
+    </FileTypesFunctions>
+  </TypesAndFunctions>
+  <TypeRelationships>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CodeAnalysis.FileTypesInfo</Type1>
+      <Type2>CodeAnalysis.CodeAnalyzer</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CodeAnalysis.CodeAnalyzer</Type1>
+      <Type2>CodeAnalysis.CodeAnalyzer</Type2>
+    </Relationship>
+  </TypeRelationships>
+</CodeAnalyzerOutput>

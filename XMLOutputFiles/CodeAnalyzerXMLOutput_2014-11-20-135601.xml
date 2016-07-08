@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Code Analyzer XML Output-->
+<CodeAnalyzerOutput>
+  <TypesAndFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server1\bin\TestCode\IRuleandAction.cs">
+      <Types>
+        <Type type="interface" name="IAction" />
+        <Type type="class" name="AAction" />
+        <Type type="interface" name="IRule" />
+        <Type type="class" name="ARule" />
+      </Types>
+      <Functions>
+        <Function name="CodeAnalysis.AAction.display" />
+        <Function name="CodeAnalysis.ARule.ARule" />
+        <Function name="CodeAnalysis.ARule.add" />
+        <Function name="CodeAnalysis.ARule.doActions" />
+        <Function name="CodeAnalysis.ARule.indexOfType" />
+      </Functions>
+    </FileTypesFunctions>
+  </TypesAndFunctions>
+  <TypeRelationships>
+    <Relationship>
+      <Relation>Inheritance</Relation>
+      <Type1>CodeAnalysis.AAction</Type1>
+      <Type2>CodeAnalysis.IAction</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Inheritance</Relation>
+      <Type1>CodeAnalysis.ARule</Type1>
+      <Type2>CodeAnalysis.IRule</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.ARule</Type1>
+      <Type2>CodeAnalysis.IAction</Type2>
+    </Relationship>
+  </TypeRelationships>
+</CodeAnalyzerOutput>

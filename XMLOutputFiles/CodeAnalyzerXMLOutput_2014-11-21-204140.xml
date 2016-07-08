@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Code Analyzer XML Output-->
+<CodeAnalyzerOutput>
+  <TypesAndFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server1\bin\TestCode\delegateDemo.cs">
+      <Types>
+        <Type type="class" name="Publisher" />
+        <Type type="delegate" name="invoker" />
+        <Type type="class" name="Subscriber" />
+        <Type type="class" name="delegateDemo" />
+      </Types>
+      <Functions>
+        <Function name="delegateDemo.Publisher.Publisher" />
+        <Function name="delegateDemo.Publisher.Publish" />
+        <Function name="delegateDemo.Subscriber.Subscriber" />
+        <Function name="delegateDemo.Subscriber.instanceHandler" />
+        <Function name="delegateDemo.Subscriber.staticHandler" />
+        <Function name="delegateDemo.delegateDemo.Main" />
+      </Functions>
+    </FileTypesFunctions>
+  </TypesAndFunctions>
+  <TypeRelationships>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>Publisher.invoker</Type1>
+      <Type2>Subscriber</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>Publisher.invoker</Type1>
+      <Type2>Subscriber</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>Publisher.invoker</Type1>
+      <Type2>Subscriber</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>Publisher</Type1>
+      <Type2>delegateDemo</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>Subscriber</Type1>
+      <Type2>delegateDemo</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>Publisher</Type1>
+      <Type2>invoker</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>Publisher</Type1>
+      <Type2>invoker</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>Subscriber</Type1>
+      <Type2>Publisher</Type2>
+    </Relationship>
+  </TypeRelationships>
+</CodeAnalyzerOutput>

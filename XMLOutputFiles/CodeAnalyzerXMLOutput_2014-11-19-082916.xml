@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Code Analyzer XML Output-->
+<CodeAnalyzerOutput>
+  <TypesAndFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server1\bin\TestCode\FileManager.cs">
+      <Types>
+        <Type type="class" name="CodeAnalysis.FileManager" />
+      </Types>
+      <Functions>
+        <Function name="CodeAnalysis.FileManager.findFiles" />
+        <Function name="CodeAnalysis.FileManager.addPattern" />
+        <Function name="CodeAnalysis.FileManager.getFiles" />
+        <Function name="CodeAnalysis.FileManager.setRecurse" />
+        <Function name="CodeAnalysis.FileManager.Main" />
+      </Functions>
+    </FileTypesFunctions>
+  </TypesAndFunctions>
+  <TypeRelationships>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CodeAnalysis.FileManager</Type1>
+      <Type2>CodeAnalysis.FileManager</Type2>
+    </Relationship>
+  </TypeRelationships>
+</CodeAnalyzerOutput>

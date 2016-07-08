@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Code Analyzer XML Output-->
+<CodeAnalyzerOutput>
+  <TypesAndFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server1\bin\TestCode\DemoRelationships.cs">
+      <Types>
+        <Type type="class" name="AggregatedType" />
+        <Type type="class" name="DerivedType" />
+        <Type type="struct" name="ComposedType" />
+        <Type type="class" name="UsedType" />
+        <Type type="class" name="DemoRels" />
+      </Types>
+      <Functions>
+        <Function name="TypeRels.AggregatedType.say" />
+        <Function name="TypeRels.DerivedType.DerivedType" />
+        <Function name="TypeRels.DerivedType.say" />
+        <Function name="TypeRels.ComposedType.say" />
+        <Function name="TypeRels.UsedType.UsedType" />
+        <Function name="TypeRels.UsedType.say" />
+        <Function name="TypeRels.DemoRels.DemoRels" />
+        <Function name="TypeRels.DemoRels.say" />
+        <Function name="TypeRels.DemoRels.Main" />
+      </Functions>
+    </FileTypesFunctions>
+  </TypesAndFunctions>
+  <TypeRelationships>
+    <Relationship>
+      <Relation>Inheritance</Relation>
+      <Type1>DerivedType</Type1>
+      <Type2>AggregatedType</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Composition</Relation>
+      <Type1>ComposedType</Type1>
+      <Type2>DemoRels</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>AggregatedType</Type1>
+      <Type2>DemoRels</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>DerivedType</Type1>
+      <Type2>DemoRels</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>DemoRels</Type1>
+      <Type2>DemoRels</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>UsedType</Type1>
+      <Type2>DemoRels</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>DemoRels</Type1>
+      <Type2>UsedType</Type2>
+    </Relationship>
+  </TypeRelationships>
+</CodeAnalyzerOutput>

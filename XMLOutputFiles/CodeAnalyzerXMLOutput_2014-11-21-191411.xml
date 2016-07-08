@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Code Analyzer XML Output-->
+<CodeAnalyzerOutput>
+  <TypesAndFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server2\bin\TestCode\Toker.cs">
+      <Types>
+        <Type type="class" name="CToker" />
+      </Types>
+      <Functions>
+        <Function name="CStoker.CToker.CToker" />
+        <Function name="CStoker.CToker.openFile" />
+        <Function name="CStoker.CToker.openString" />
+        <Function name="CStoker.CToker.close" />
+        <Function name="CStoker.CToker.removeReturn" />
+        <Function name="CStoker.CToker.removeReturn" />
+        <Function name="CStoker.CToker.readLine" />
+        <Function name="CStoker.CToker.getLine" />
+        <Function name="CStoker.CToker.extract" />
+        <Function name="CStoker.CToker.extractDQuote" />
+        <Function name="CStoker.CToker.extractSQuote" />
+        <Function name="CStoker.CToker.extractComment" />
+        <Function name="CStoker.CToker.eatCComment" />
+        <Function name="CStoker.CToker.IsGrammarPunctuation" />
+        <Function name="CStoker.CToker.eatAscii" />
+        <Function name="CStoker.CToker.eatPunctuationChar" />
+        <Function name="CStoker.CToker.fillBuffer" />
+        <Function name="CStoker.CToker.getTok" />
+        <Function name="CStoker.CToker.peekNextTok" />
+        <Function name="CStoker.CToker.pushBack" />
+        <Function name="CStoker.CToker.Main" />
+      </Functions>
+    </FileTypesFunctions>
+  </TypesAndFunctions>
+  <TypeRelationships>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CToker</Type1>
+      <Type2>CToker</Type2>
+    </Relationship>
+  </TypeRelationships>
+</CodeAnalyzerOutput>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Code Analyzer XML Output-->
+<CodeAnalyzerOutput>
+  <TypesAndFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\TestCode\SubDirectory\XMLWriter.cs">
+      <Types>
+        <Type type="class" name="CodeAnalysis.XMLWriter" />
+      </Types>
+      <Functions>
+        <Function name="CodeAnalysis.XMLWriter.XMLWriter" />
+        <Function name="CodeAnalysis.XMLWriter.getXML" />
+        <Function name="CodeAnalysis.XMLWriter.addFileTypesAndFunctions" />
+        <Function name="CodeAnalysis.XMLWriter.addTypeRelationships" />
+        <Function name="CodeAnalysis.XMLWriter.Main" />
+      </Functions>
+    </FileTypesFunctions>
+  </TypesAndFunctions>
+  <TypeRelationships>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CodeAnalysis.XMLWriter</Type1>
+      <Type2>CodeAnalysis.XMLWriter</Type2>
+    </Relationship>
+  </TypeRelationships>
+</CodeAnalyzerOutput>

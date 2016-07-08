@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Code Analyzer XML Output-->
+<CodeAnalyzerOutput>
+  <TypesAndFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server2\bin\TestCode\CodeAnalyzer.cs">
+      <Types>
+        <Type type="class" name="FileTypesInfo" />
+        <Type type="class" name="CodeAnalyzer" />
+      </Types>
+      <Functions>
+        <Function name="CodeAnalysis.FileTypesInfo.FileTypesInfo" />
+        <Function name="CodeAnalysis.CodeAnalyzer.CodeAnalyzer" />
+        <Function name="CodeAnalysis.CodeAnalyzer.doCodeAnalysis" />
+        <Function name="CodeAnalysis.CodeAnalyzer.findTypesAndFuncs" />
+        <Function name="CodeAnalysis.CodeAnalyzer.findTypeRelationships" />
+        <Function name="CodeAnalysis.CodeAnalyzer.Main" />
+      </Functions>
+    </FileTypesFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server2\bin\TestCode\delegateDemo.cs">
+      <Types>
+        <Type type="class" name="Publisher" />
+        <Type type="delegate" name="invoker" />
+        <Type type="class" name="Subscriber" />
+        <Type type="class" name="delegateDemo" />
+      </Types>
+      <Functions>
+        <Function name="delegateDemo.Publisher.Publisher" />
+        <Function name="delegateDemo.Publisher.Publish" />
+        <Function name="delegateDemo.Subscriber.Subscriber" />
+        <Function name="delegateDemo.Subscriber.instanceHandler" />
+        <Function name="delegateDemo.Subscriber.staticHandler" />
+        <Function name="delegateDemo.delegateDemo.Main" />
+      </Functions>
+    </FileTypesFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server2\bin\TestCode\DemoRelationships.cs">
+      <Types>
+        <Type type="class" name="AggregatedType" />
+        <Type type="class" name="DerivedType" />
+        <Type type="struct" name="ComposedType" />
+        <Type type="class" name="UsedType" />
+        <Type type="class" name="DemoRels" />
+      </Types>
+      <Functions>
+        <Function name="TypeRels.AggregatedType.say" />
+        <Function name="TypeRels.DerivedType.DerivedType" />
+        <Function name="TypeRels.DerivedType.say" />
+        <Function name="TypeRels.ComposedType.say" />
+        <Function name="TypeRels.UsedType.UsedType" />
+        <Function name="TypeRels.UsedType.say" />
+        <Function name="TypeRels.DemoRels.DemoRels" />
+        <Function name="TypeRels.DemoRels.say" />
+        <Function name="TypeRels.DemoRels.Main" />
+      </Functions>
+    </FileTypesFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server2\bin\TestCode\Executive.cs">
+      <Types>
+        <Type type="class" name="Executive" />
+      </Types>
+      <Functions>
+        <Function name="CodeAnalysis.Executive.startCodeAnalysisAndDisplay" />
+        <Function name="CodeAnalysis.Executive.displayFunctionsSummary" />
+        <Function name="CodeAnalysis.Executive.Main" />
+      </Functions>
+    </FileTypesFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server2\bin\TestCode\FileManager.cs">
+      <Types>
+        <Type type="class" name="FileManager" />
+      </Types>
+      <Functions>
+        <Function name="CodeAnalysis.FileManager.findFiles" />
+        <Function name="CodeAnalysis.FileManager.addPattern" />
+        <Function name="CodeAnalysis.FileManager.getFiles" />
+        <Function name="CodeAnalysis.FileManager.setRecurse" />
+        <Function name="CodeAnalysis.FileManager.Main" />
+      </Functions>
+    </FileTypesFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server2\bin\TestCode\IRuleandAction.cs">
+      <Types>
+        <Type type="interface" name="IAction" />
+        <Type type="class" name="AAction" />
+        <Type type="interface" name="IRule" />
+        <Type type="class" name="ARule" />
+      </Types>
+      <Functions>
+        <Function name="CodeAnalysis.AAction.display" />
+        <Function name="CodeAnalysis.ARule.ARule" />
+        <Function name="CodeAnalysis.ARule.add" />
+        <Function name="CodeAnalysis.ARule.doActions" />
+        <Function name="CodeAnalysis.ARule.indexOfType" />
+      </Functions>
+    </FileTypesFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server2\bin\TestCode\Parser.cs">
+      <Types>
+        <Type type="class" name="Parser" />
+        <Type type="class" name="TestParser" />
+      </Types>
+      <Functions>
+        <Function name="CodeAnalysis.Parser.Parser" />
+        <Function name="CodeAnalysis.Parser.add" />
+        <Function name="CodeAnalysis.Parser.parse" />
+        <Function name="CodeAnalysis.TestParser.ProcessCommandline" />
+        <Function name="CodeAnalysis.TestParser.ShowCommandLine" />
+        <Function name="CodeAnalysis.TestParser.Main" />
+      </Functions>
+    </FileTypesFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server2\bin\TestCode\Semi.cs">
+      <Types>
+        <Type type="class" name="CSemiExp" />
+      </Types>
+      <Functions>
+        <Function name="CSsemi.CSemiExp.CSemiExp" />
+        <Function name="CSsemi.CSemiExp.Equals" />
+        <Function name="CSsemi.CSemiExp.FindFirst" />
+        <Function name="CSsemi.CSemiExp.FindLast" />
+        <Function name="CSsemi.CSemiExp.Contains" />
+        <Function name="CSsemi.CSemiExp.GetHashCode" />
+        <Function name="CSsemi.CSemiExp.open" />
+        <Function name="CSsemi.CSemiExp.close" />
+        <Function name="CSsemi.CSemiExp.isTerminator" />
+        <Function name="CSsemi.CSemiExp.switch" />
+        <Function name="CSsemi.CSemiExp.get" />
+        <Function name="CSsemi.CSemiExp.IsPunc" />
+        <Function name="CSsemi.CSemiExp.IsOperatorPair" />
+        <Function name="CSsemi.CSemiExp.getSemi" />
+        <Function name="CSsemi.CSemiExp.insert" />
+        <Function name="CSsemi.CSemiExp.Add" />
+        <Function name="CSsemi.CSemiExp.Add" />
+        <Function name="CSsemi.CSemiExp.initialize" />
+        <Function name="CSsemi.CSemiExp.flush" />
+        <Function name="CSsemi.CSemiExp.isComment" />
+        <Function name="CSsemi.CSemiExp.display" />
+        <Function name="CSsemi.CSemiExp.displayStr" />
+        <Function name="CSsemi.CSemiExp.clone" />
+        <Function name="CSsemi.CSemiExp.remove" />
+        <Function name="CSsemi.CSemiExp.remove" />
+        <Function name="CSsemi.CSemiExp.Main" />
+      </Functions>
+    </FileTypesFunctions>
+  </TypesAndFunctions>
+  <TypeRelationships>
+    <Relationship>
+      <Relation>Inheritance</Relation>
+      <Type1>TypeRels.DerivedType</Type1>
+      <Type2>TypeRels.AggregatedType</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Inheritance</Relation>
+      <Type1>CodeAnalysis.AAction</Type1>
+      <Type2>CodeAnalysis.IAction</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Inheritance</Relation>
+      <Type1>CodeAnalysis.ARule</Type1>
+      <Type2>CodeAnalysis.IRule</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Composition</Relation>
+      <Type1>TypeRels.ComposedType</Type1>
+      <Type2>TypeRels.DemoRels</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CSsemi.CSemiExp</Type1>
+      <Type2>CodeAnalysis.CodeAnalyzer</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CodeAnalysis.FileTypesInfo</Type1>
+      <Type2>CodeAnalysis.CodeAnalyzer</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CodeAnalysis.CodeAnalyzer</Type1>
+      <Type2>CodeAnalysis.CodeAnalyzer</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>delegateDemo.Publisher.invoker</Type1>
+      <Type2>delegateDemo.Subscriber</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>delegateDemo.Publisher.invoker</Type1>
+      <Type2>delegateDemo.Subscriber</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>delegateDemo.Publisher.invoker</Type1>
+      <Type2>delegateDemo.Subscriber</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>delegateDemo.Publisher</Type1>
+      <Type2>delegateDemo.delegateDemo</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>delegateDemo.Subscriber</Type1>
+      <Type2>delegateDemo.delegateDemo</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>TypeRels.AggregatedType</Type1>
+      <Type2>TypeRels.DemoRels</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>TypeRels.DerivedType</Type1>
+      <Type2>TypeRels.DemoRels</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>TypeRels.DemoRels</Type1>
+      <Type2>TypeRels.DemoRels</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>TypeRels.UsedType</Type1>
+      <Type2>TypeRels.DemoRels</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CodeAnalysis.CodeAnalyzer</Type1>
+      <Type2>CodeAnalysis.Executive</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CodeAnalysis.Executive</Type1>
+      <Type2>CodeAnalysis.Executive</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CodeAnalysis.FileManager</Type1>
+      <Type2>CodeAnalysis.Executive</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CodeAnalysis.FileManager</Type1>
+      <Type2>CodeAnalysis.FileManager</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CSsemi.CSemiExp</Type1>
+      <Type2>CodeAnalysis.TestParser</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CSsemi.CSemiExp</Type1>
+      <Type2>CSsemi.CSemiExp</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CSsemi.CSemiExp</Type1>
+      <Type2>CSsemi.CSemiExp</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CSsemi.CSemiExp</Type1>
+      <Type2>CSsemi.CSemiExp</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.CodeAnalyzer</Type1>
+      <Type2>CodeAnalysis.Parser</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.CodeAnalyzer</Type1>
+      <Type2>CodeAnalysis.Parser</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>delegateDemo.Publisher</Type1>
+      <Type2>delegateDemo.invoker</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>delegateDemo.Publisher</Type1>
+      <Type2>delegateDemo.invoker</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>delegateDemo.Subscriber</Type1>
+      <Type2>delegateDemo.Publisher</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>TypeRels.DemoRels</Type1>
+      <Type2>TypeRels.UsedType</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.AAction</Type1>
+      <Type2>CSsemi.CSemiExp</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.ARule</Type1>
+      <Type2>CodeAnalysis.IAction</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.ARule</Type1>
+      <Type2>CSsemi.CSemiExp</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.ARule</Type1>
+      <Type2>CSsemi.CSemiExp</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.Parser</Type1>
+      <Type2>CodeAnalysis.IRule</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.Parser</Type1>
+      <Type2>CSsemi.CSemiExp</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.TestParser</Type1>
+      <Type2>CodeAnalysis.TestParser</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.TestParser</Type1>
+      <Type2>CodeAnalysis.Parser</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CSsemi.CSemiExp</Type1>
+      <Type2>CSsemi.CSemiExp</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CSsemi.CSemiExp</Type1>
+      <Type2>CSsemi.CSemiExp</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CSsemi.CSemiExp</Type1>
+      <Type2>CSsemi.CSemiExp</Type2>
+    </Relationship>
+  </TypeRelationships>
+</CodeAnalyzerOutput>

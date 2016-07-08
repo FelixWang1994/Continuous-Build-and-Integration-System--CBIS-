@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Code Analyzer XML Output-->
+<CodeAnalyzerOutput>
+  <TypesAndFunctions />
+  <TypeRelationships>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.TestParser</Type1>
+      <Type2>.TestParser</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.TestParser</Type1>
+      <Type2>.Parser</Type2>
+    </Relationship>
+  </TypeRelationships>
+</CodeAnalyzerOutput>

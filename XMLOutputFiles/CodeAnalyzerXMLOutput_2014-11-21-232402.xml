@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Code Analyzer XML Output-->
+<CodeAnalyzerOutput>
+  <TypesAndFunctions />
+  <TypeRelationships>
+    <Relationship>
+      <Relation>Aggregation</Relation>
+      <Type1>CToker</Type1>
+      <Type2>CToker</Type2>
+    </Relationship>
+  </TypeRelationships>
+</CodeAnalyzerOutput>

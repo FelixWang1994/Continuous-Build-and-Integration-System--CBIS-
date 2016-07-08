@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Code Analyzer XML Output-->
+<CodeAnalyzerOutput>
+  <TypesAndFunctions>
+    <FileTypesFunctions filename="C:\C#\Project4\Server1\bin\TestCode\Parser.cs">
+      <Types>
+        <Type type="class" name="CodeAnalysis.Parser" />
+        <Type type="class" name="CodeAnalysis.TestParser" />
+      </Types>
+      <Functions>
+        <Function name="CodeAnalysis.Parser.Parser" />
+        <Function name="CodeAnalysis.Parser.add" />
+        <Function name="CodeAnalysis.Parser.parse" />
+        <Function name="CodeAnalysis.TestParser.ProcessCommandline" />
+        <Function name="CodeAnalysis.TestParser.ShowCommandLine" />
+        <Function name="CodeAnalysis.TestParser.Main" />
+      </Functions>
+    </FileTypesFunctions>
+  </TypesAndFunctions>
+  <TypeRelationships>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.TestParser</Type1>
+      <Type2>CodeAnalysis.TestParser</Type2>
+    </Relationship>
+    <Relationship>
+      <Relation>Using</Relation>
+      <Type1>CodeAnalysis.TestParser</Type1>
+      <Type2>CodeAnalysis.Parser</Type2>
+    </Relationship>
+  </TypeRelationships>
+</CodeAnalyzerOutput>
